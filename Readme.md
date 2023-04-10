@@ -1,6 +1,6 @@
-# Minecraft Players Watcher
+# Minecraft User List
 
-Minecraft Players Watcher is a Go application that monitors a Minecraft server log file and extracts player usernames. The usernames are stored in a Redis database and exposed through a simple web API.
+Minecraft User List is a Go application that monitors a Minecraft server log file and extracts player usernames. The usernames are stored in a Redis database and exposed through a simple web API.
 
 ## Features
 
@@ -27,8 +27,10 @@ Configuration for the application is provided through environment variables. The
 
 1. Clone this repository to your local machine.
 
-git clone https://github.com/your-github-username/minecraft-players-watcher.git
-cd minecraft-players-watcher
+
+
+git clone https://github.com/your-github-username/minecraft-user-list.git
+cd minecraft-user-list
 
 
 2. Update the `docker-compose.yml` file with the correct absolute path to the `latest.log` file on your host machine.
